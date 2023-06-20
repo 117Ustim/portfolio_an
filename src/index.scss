@@ -1,0 +1,13 @@
+@import "./scss/base/reset";
+@import "./scss/base/var";
+@import "./scss/base/base";
+
+// block
+@import "./header/header.scss";
+@import "./main/main.scss";
+@import "./slider/slider.scss";
+@import "./footer/footer.scss";
+@import "./portfolio/portfolio.scss";
+@import "./swiper/swiper.scss";
+@import "./header/nav/navig.scss";
+@import "./header/modal/modal.scss";

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&family=Montserrat:wght@300;400&display=swap");
+
+body {
+  background-color: $bg-main;
+  font-family: $font-monts;
+  font-size: 16px;
+  color: $fonts-color;
+}
+
+.app {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+._container {
+  padding: 0 15px;
+  max-width: 988px;
+   margin: 0 auto;
+  
+}
+._none {
+  display: none;
+}

@@ -1,0 +1,30 @@
+.footer {
+
+ display: flex;
+ justify-content:center;
+ 
+height: 100px;
+
+}
+.footer__icon {
+  
+// margin: auto;
+
+
+}
+.footer__icon-block {
+
+  display: flex; 
+  gap: 18px;
+  img{
+    width: 31px;
+    height: 31px;
+    
+  }
+  img:hover {
+    width: 37px;
+    height: 37px;
+    transition: all 0.5s ease;
+  }
+}
+
