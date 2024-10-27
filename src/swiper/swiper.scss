@@ -1,0 +1,53 @@
+.portfolio__slider {
+  margin: 0 7px;
+   margin-top: calc(30px + 40 * ((100vw - 320px) / (1920 - 320)));
+// padding-bottom: 15px;
+
+}
+.portfolio__slider-title {
+  margin-bottom: 28px;
+  font-weight: 400;
+  font-size: calc(14px + 9 * ((100vw - 320px) / (1920 - 320)));
+  line-height: 130.4%;
+  letter-spacing: 0.27em;
+  text-transform: uppercase;
+}
+.portfolio__slider-slider {
+ 
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    color: #fff;
+    font-size: calc(10px + 30 * ((100vw - 320px) / (1920 - 320)));
+  }
+ 
+  // .swiper-pagination-bullet {
+  //   background-color: $fonts-color;
+  // }
+  img {
+    box-shadow: 3px 7px 7px 1px #727171;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    // cursor: zoom-in;
+    //  cursor: pointer;
+    height:calc(100px + 350 * ((100vw - 320px) / (1920 - 320)));
+  }
+//   img:active {
+    
+// z-index: 1000;
+//      transform: scale(1.5);
+//      box-shadow: none;
+//   }
+ 
+  // .swiper-horizontal {
+  //   // height:calc(100px + 250 * ((100vw - 320px) / (1920 - 320)));
+  //     height: 450px;
+  // }
+.swiper-wrapper {
+  padding: calc(10px + 40 * ((100vw - 320px) / (1920 - 320))) 0;
+
+}
+
+}
+ 
