@@ -2,7 +2,7 @@
   "name": "partfolio_an",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://117Ustim.github.io/portfolio_an/",
+"homepage": "https://117Ustim.github.io/portfolio_an",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -25,7 +25,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+   "deploy": "gh-pages -d build"
+
+   
   },
   "eslintConfig": {
     "extends": [
